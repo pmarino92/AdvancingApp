@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const today = new Date().getDay();
 
     // Determine "advancing" day
-    const advanceDay = today === 0 ? "Sunday" : "Monday";
+    const advanceDay = today === 0 ? "Sunday" : "Wednesday";
 
     // Set the last advance day (you can change this manually)
     const lastAdvanceDay = "Friday"; // Change this to any day of the week
