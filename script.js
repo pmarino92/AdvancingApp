@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const lastAdvanceDayElement = document.getElementById("last-advance-day");
 
     // Determine "advancing" day
-    const advanceDay = "Sunday";
+    const advanceDay = "Wednesday";
 
-    // Set the last advance day (you can change this manually)
-    const lastAdvanceDay = "Monday"; // Change this to any day of the week
+    // Set the last advance day
+    const lastAdvanceDay = "Sunday"; // Change this to any day of the week
 
     // Display the advancing day
     advanceDayElement.textContent = advanceDay;
